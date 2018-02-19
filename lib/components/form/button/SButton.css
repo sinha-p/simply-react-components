@@ -1,0 +1,31 @@
+button  {
+    min-width: 2em;
+    margin: 0.5em;
+    clear: both;
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #f0f0f0;
+    outline: none;
+  }
+  .primary {
+    background: #3a99d9;
+  }
+  .danger {
+    background: #e54d42;
+  }
+  .outline {
+    background: transparent;
+    color: #2c3e4f;
+    border-color: #2c3e4f;
+  }

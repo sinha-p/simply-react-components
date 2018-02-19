@@ -12,7 +12,8 @@ var config = {
   },
   module : {
     loaders : [
-      { test : /\.js?/, include : LIB_DIR, loader : 'babel-loader' }
+      { test : /\.js?/, include : LIB_DIR, loader : 'babel-loader' },
+      { test: /\.css/, loaders: ['style-loader', 'css-loader'], include:  LIB_DIR }
     ]
   }
 };
