@@ -5,7 +5,7 @@ var BUILD_DIR = path.resolve(__dirname, 'build/js');
 var LIB_DIR = path.resolve(__dirname, 'lib');
 
 var config = {
-  entry: LIB_DIR + '/index.js',
+  entry: LIB_DIR + '/App.js',
   output: {
     path: BUILD_DIR,
     filename: 'simply-react.js'
