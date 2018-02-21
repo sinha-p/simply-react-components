@@ -2,5 +2,4 @@
 build
 node_modules
 config
-docs
 *.log
