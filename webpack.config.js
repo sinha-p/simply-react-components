@@ -13,7 +13,7 @@ var config = {
   module : {
     loaders : [
       { test : /\.js?/, include : LIB_DIR, loader : 'babel-loader' },
-      { test: /\.css/, loaders: ['style-loader', 'css-loader'], include:  LIB_DIR }
+      { test: /\.scss/, loaders: ['style-loader', 'css-loader', 'sass-loader'], include:  LIB_DIR }
     ]
   }
 };
