@@ -2,13 +2,16 @@
   height: 4px;
   width: 100%;
   background: #7e8c9f;
+  margin: 50px 0;
+  position: relative;
   .range {
     background: #25daa5;
     height: 100%;
     width: 0%;
+    position: absolute;
   }
   .range-handle {
-    position: relative;
+    position: absolute;
     cursor: pointer;
     background: #25daa5;
     width: 22px;
@@ -21,5 +24,8 @@
     &:hover {
       border: 0.5px solid #7e8c9f;
     }
+  }
+  .right-range-handle {
+    top: -30px;
   }
 }
