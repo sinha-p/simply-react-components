@@ -1,3 +1,15 @@
+@import "../../styles/theme.scss";
+
+/* Colors */
+@each $name, $color in $colors {
+  &.#{$name} .range {
+    background: $color;
+  }
+  &.#{$name} .range-handle {
+    background: $color;
+  }
+}
+
 .slider {
   height: 4px;
   width: 100%;
@@ -5,7 +17,6 @@
   margin: 50px 0;
   position: relative;
   .range {
-    background: #25daa5;
     height: 100%;
     width: 0%;
     position: absolute;
@@ -13,7 +24,6 @@
   .range-handle {
     position: absolute;
     cursor: pointer;
-    background: #25daa5;
     width: 22px;
     height: 22px;
     border-radius: 50% 50% 0;
